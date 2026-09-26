@@ -3,7 +3,7 @@ import { invoke } from "@tauri-apps/api/core";
 import i18n from "../i18n";
 
 export type ThemeMode = "dark" | "light";
-export type Language = "zh" | "en";
+export type Language = "zh" | "en" | "ru"; // добавлен русский
 
 export interface AppSettings {
   theme: ThemeMode;

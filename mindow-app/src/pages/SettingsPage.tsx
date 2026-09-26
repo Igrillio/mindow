@@ -104,6 +104,7 @@ export function SettingsPage() {
             <div className="flex gap-2">
               <PillButton active={language === "zh"} onClick={() => setLanguage("zh")} label={t("settings.languageZh")} />
               <PillButton active={language === "en"} onClick={() => setLanguage("en")} label={t("settings.languageEn")} />
+              <PillButton active={language === "ru"} onClick={() => setLanguage("ru")} label={t("settings.languageRu")} />
             </div>
           </SettingRow>
         </SettingCard>
